@@ -2,6 +2,7 @@
 public class RocketLauncher : Weapon {
 
     public RocketLauncher() {
+        //weaponModel = Resources.Load("RocketLauncher") as GameObject; //Ask Daryl on thurs
         velocity = 40f;
         clipSize = 10;
         reloadTime = 2f;
@@ -12,10 +13,8 @@ public class RocketLauncher : Weapon {
         base.velocity = _velocity;
     }
 
-    public override void Fire()
-    {
+    public override void Fire(GameObject barrel, GameObject projectile){
         Debug.Log("Fire from AR15 class");
-        base.Fire();
-        this.CreateObjectPool();
+        base.Fire(barrel, projectile);
     }
 }

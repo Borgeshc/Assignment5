@@ -12,13 +12,13 @@ public class HelloCoroutine : MonoBehaviour
 	IEnumerator MyCoroutine ()
     {
         yield return new WaitForSeconds(5);
-        print("WaitForSeconds");
-        ChangeBool();
-        yield return new WaitUntil(ChangeBool);
-        print("WaitUntil");
-        WhileBoolTrue();
-        yield return new WaitWhile(WhileBoolTrue);
-        print("WaitWhile");
+        //print("WaitForSeconds");
+        //ChangeBool();
+        //yield return new WaitUntil(ChangeBool);
+        //print("WaitUntil");
+        //WhileBoolTrue();
+        //yield return new WaitWhile(WhileBoolTrue);
+        //print("WaitWhile");
     }
 
     bool ChangeBool()
