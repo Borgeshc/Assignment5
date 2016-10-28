@@ -1,4 +1,10 @@
 ﻿using UnityEngine;
+
+//Hector
+//Assignment 6
+//This script generates windmills
+//10/27/16
+
 public class LaserGun : Weapon
 {
     public LaserGun(){

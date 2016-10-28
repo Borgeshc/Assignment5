@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
+//Hector
+//Assignment 6
+//This script generates windmills
+//10/27/16
+
 public class WeaponManager : MonoBehaviour {
 
     Dictionary<Weapon, Weapon> weapons = new Dictionary<Weapon, Weapon>();

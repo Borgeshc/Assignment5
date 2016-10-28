@@ -86,9 +86,12 @@
     <Compile Include="Assets\Scripts\GenerateWindmill.cs" />
     <Compile Include="Assets\Scripts\HelloCoroutine.cs" />
     <Compile Include="Assets\Scripts\LaserGun.cs" />
+    <Compile Include="Assets\Scripts\MenuButtons.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\MyWeapons.cs" />
     <Compile Include="Assets\Scripts\ObjectPooling.cs" />
+    <Compile Include="Assets\Scripts\PickUp.cs" />
+    <Compile Include="Assets\Scripts\PickUpManager.cs" />
     <Compile Include="Assets\Scripts\Rocket.cs" />
     <Compile Include="Assets\Scripts\RocketLauncher.cs" />
     <Compile Include="Assets\Scripts\Rotation.cs" />
